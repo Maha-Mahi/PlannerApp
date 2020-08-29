@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Evento-Planner App</string>
+    <string name="Home">Home</string>
+    <string name="Decore">Decoration Services</string>
+    <string name="Home2">Catering Services</string>
+    <string name="Home3">Artist Services</string>
+    <string name="Home4">Photgraphy Services</string>
+    <string name="map_key" translatable="false">
+        AIzaSyBVmfSW2XiTtv5HyvVLlY7f3YMhZhuyG9c
+    </string>
+
+    <string name="terms">
+"-50% payment due at time of booking.
+-Balance payment due ten days before event.
+-This package includes the venue, food and decoration for 100 people.
+-All decoration items provided are property of Evento and are only being provided on a rental basis. all materials will be retained by us.
+-In case of any damage to Evento property, the client will be liable to compensate us in full.
+    </string>
+
+
+    <string name="term1">
+Our management has created this Privacy Statement (Policy) in order to demonstrate our firm commitment to help our users better understand what information we collect about them and what may happen to that information.
+\n\n
+In the course of our business of helping our viewers plan their events and functions, we collect certain information from you.
+\n\n
+In the course of registering for and availing various services we provide from time to time through our website and app: Eventendor, you may be required to give your Name, address, Email address, phone number, City, Gender and Date of Birth.
+
+The Personal Information is used for four general purposes: to customize the content you see, to fulfill your requests for certain services, to contact you about our services, and to help our partner vendors. Unless otherwise stated explicitly, this Policy applies to Personal Information as disclosed on any of the Media.
+\n\n
+Security
+\n\n
+Personal Information will be kept confidential and we do not disclose the information except that in case you have specifically made an enquiry . Further, the vendors / advertisers who are listed with us, may call you, based on the query or enquiry that you make with us, enquiring about any Product / Service they might offer
+\n\n
+We will share Personal Information only under one or more of the following circumstances: - If we have your consent or deemed consent to do so - If we are compelled by law (including court orders) to do so.
+\n\n
+In furtherance of the confidentiality with which we treat Personal Information we have put in place appropriate physical, electronic, and managerial procedures to safeguard and secure the information we collect online.
+\n\n
+We give you the ability to edit your account information and preferences at any time, including whether you want us to contact you regarding any services. To protect your privacy and security, we will also take reasonable steps to verify your identity before granting access or making corrections.
+\n\n
+Control Of Your Password
+\n\n\n
+You are responsible for all actions taken with your login information and password, including fees. Therefore we do not recommend that you disclose your account password or login information to any third parties. If you lose control of your password, you may lose substantial control over your personally identifiable information and may be subject to legally binding actions taken on your behalf. Therefore, if your password has been compromised for any reason, you should immediately change your password
+\n\n
+If you have any further queries regarding the privacy policy, Feel free to contact us using "Contact Us Tab"
+    </string>
+
+    <string name="title">
+          Be a Planning Wizard. Get Inspired. Save Money...
+    </string>
+
+    <string name="about">
+
+        Evento is all you need when planning for your next event, whether it is your family function or your corporate event,
+        we will help you in selecting the right vendors in your budget and take your event from 0 to 100.\n
+\n\nEvento aim is to be the only destination when it comes to finding out the vendors,from caterers to artists to venues. We got them all for you!
+        Selecting a trustworthy vendor was a problem before Eventendor but now it is just at your finger tips!
+
+    </string>
+    <string name="flora">Central Flora-Flowers Expert</string>
+    <string name="floraprize">Prize: strating from 6000 PKR</string>
+    <string name="florameet">Set Meeting</string>
+    <string name="floraview">View</string>
+    <string name="florenzameet">Set Meeting</string>
+    <string name="florenzaview">View</string>
+    <string name="florenzaprize">Prize: Call For Prize</string>
+    <string name="florenzatitle">Florenza-Wedding Planner</string>
+    <string name="florenzeabout">It is one of the finest wedding décor companies of Karachi because the team of florenza is an expert in creating flower arrangements for weddings. They ornament your wedding venue with fresh and seasonal flowers according to your theme</string>
+    <string name="floraabout">Centra Flora offers a wide variety of unique Flower Arrangements, Bouquet, Basket, Flower Vases and Hand-Tied Flowers. The Customer Flowers Bouquet are designed for Birthday, Wedding, Anniversary, Get Well, New Born, Engagement</string>
+    <string name="fazeeabout">Fazeel Peerzada’s photography skills are unique from other photographers because his style of capturing moments holds much creativity. He is one of the professional photographers in Karachi</string>
+    <string name="fazee">Fazeel Peerzada-Studio</string>
+    <string name="ajabout">AJ studio is in this business of photography for 19 years. They are well known for having a team of artistic and passionate photographers that are trained enough to capture your moments according to your expectations.</string>
+    <string name="darabout">Darwaidh Studios in Karachi are known for bringing out glamour in you and portraying your images like the ones you see in Vogue. A very interesting concept, that will take your photo shoot to the next level.</string>
+    <string name="ideaabout">To make your wedding photo shoot sumptuously rich Ideatic studio are here at your service. Based in Karachi, they have embedded their mark in the world of photography. They try to include creative and innovative ideas in your photo shoot to make it more fun and inventive.</string>
+    <string name="romanabout">Romania Salon is located in Karachi Pakistan, The Salon offers various services such as, Haircuts and Styling, Facial, Makeup, Body Waxing, Nail Art and ot</string>
+    <string name="mizkabout">Mizka’s studio is by Mahnoor Mizka and many of you may know that she is the youngest certified stylist in Pakistan also this is one of the best beauty salons in Karachi due to the team that this studio has in the guidance of Mahnoor Mizka</string>
+    <string name="nababout">Nabila has been nothing short of a beauty legend. her timeless minimal style has refined the red carpet for just as long. The pioneering stylist has magically been transforming the ordinary into the extraordinary with an innate genius for remaining ahead of time and an aesthetic defined by classic sophistication. She has constantly fostered the upward spiral of her career with new benchmark innovative techniques and unforgettable images.
+
+</string>
+    <string name="h_h_bakers"><![CDATA[H\'&\'H-Bakers]]></string>
+    <string name="hhabout"><![CDATA[From birthdays to anniversaries and corporate events, H&H offers a treat for every retreat.From mouthwatering savory items to cakes & desserts for every occasion. All our products are made with the highest quality ingredients, love and passion.]]></string>
+    <string name="hobabout">Established in 1998, Hobnob revolutionized the concept of the bakery chain in Karachi by introducing a culture of innovation in product development and providing easy access with branches in every neighborhood across the city.Our mission is to give our customers the most authentic and artisanal bakery experience at the best price.</string>
+    <string name="awabout">We are extremely proud to announce the launch of AW Caterers in Karachi. Our mission is simple: to offer a premium quality service at a reasonable price.</string>
+    <string name="darbarabout">Established in 1955, Darbar caterers and decorations have experience in catering business activities of more than half a century. They know how to make handle all your requirements in a traditional way and exceed your expectations.</string>
+    <string-array name="Choicer">
+        <item>Decoration</item>
+        <item>Artist</item>
+        <item>Catering</item>
+        <item>Photography</item>
+    </string-array>
+
+
+</resources>

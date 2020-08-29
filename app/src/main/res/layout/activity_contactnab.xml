@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundabout"
+    tools:context=".contactnab">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="Nabila Salon"
+            />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/nabilalogo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabla Beauty Salon"
+            android:textSize="22sp"
+            android:textColor="@android:color/background_dark"
+            android:textAlignment="gravity"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="92dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/phoneimagebtnnab"
+            android:background="@drawable/ic_phone_foreground"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PortFolio"
+            android:textStyle="bold"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:textColor="@android:color/background_dark"
+            tools:ignore="MissingConstraints" />
+
+        <ViewFlipper
+            android:id="@+id/viewFlippernab"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Located At:"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:id="@+id/mapnab"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            />
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tem1"
+        android:title="Karachi"
+        />
+
+
+    <item
+        android:id="@+id/tem2"
+        android:title="Hyderabad"
+        />
+
+    <item
+        android:id="@+id/tem3"
+        android:title="Jamshoro"
+        />
+
+</menu>

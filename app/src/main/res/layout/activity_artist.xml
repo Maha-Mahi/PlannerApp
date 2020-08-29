@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Artist">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:title="@string/Decore"
+        app:title="Artist Services"
+        app:titleMarginStart="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/mehndiimage"
+            android:layout_width="230dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/mehndiart" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:focusable="auto"
+            android:freezesText="false"
+            android:gravity="center|center_horizontal"
+            android:text="Mehndi Artist"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/makeupimage"
+            android:layout_width="230dp"
+            android:layout_height="210dp"
+            android:layout_below="@+id/imagebaloon"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/makeupart1" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:layout_below="@+id/imageflower"
+            android:layout_weight="1"
+            android:focusable="auto"
+            android:freezesText="false"
+            android:gravity="center|center_horizontal"
+            android:text="MakeUp Artist"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-black" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

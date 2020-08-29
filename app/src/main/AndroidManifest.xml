@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.plannerapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".darbarcate"></activity>
+        <activity android:name=".awcate" />
+        <activity android:name=".hobbak" />
+        <activity android:name=".hhbak" />
+        <activity android:name=".contactmizka" />
+        <activity android:name=".contactnab" />
+        <activity android:name=".mizka" />
+        <activity android:name=".nabsalon" />
+        <activity android:name=".contactroman" />
+        <activity android:name=".contactsahar" />
+        <activity android:name=".romanmehndi" />
+        <activity android:name=".saharmehndi" />
+        <activity android:name=".contactidea" />
+        <activity android:name=".contactdarwaish" />
+        <activity android:name=".ideaphoto" />
+        <activity android:name=".darphoto" />
+        <activity android:name=".Mehndi" />
+        <activity android:name=".contactaj" />
+        <activity android:name=".contactfazee" />
+        <activity android:name=".fazeephoto" />
+        <activity android:name=".ajphoto" />
+        <activity android:name=".contactflora" />
+        <activity android:name=".contactflorenza" />
+        <activity android:name=".CentralFlora" />
+        <activity android:name=".Florenza" />
+        <activity android:name=".contactArch" />
+        <activity android:name=".Terms_Conditions" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Barat">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Valima" />
+        <activity android:name=".Engage" />
+        <activity android:name=".Booking" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name=".Menu" />
+        <activity android:name=".balloonarch" />
+        <activity android:name=".ContactPortfolio" />
+        <activity android:name=".Baloonpartpopper1" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".register" />
+        <activity android:name=".Events" />
+        <activity android:name=".Wedding" />
+        <activity android:name=".Cake" />
+        <activity android:name=".Food" />
+        <activity android:name=".makeup" />
+        <activity android:name=".FlowerDecore" />
+        <activity android:name=".BaloonDecore" />
+        <activity android:name=".Photography" />
+        <activity android:name=".Catering" />
+        <activity android:name=".Artist" />
+        <activity android:name=".Decoration" />
+        <activity android:name=".Vendors" />
+        <activity android:name=".AllEvents" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:id="@+id/flipper"
+        android:background="@drawable/slide1"
+        tools:ignore="MissingConstraints">
+    </ViewFlipper>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Event Planners"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:id="@+id/text1"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/flipper"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:gravity="center_horizontal"
+        android:text="An event planner structures an event, coordinate all of the moving parts,and makes sure everyone has a good time. Also called convention and meeting planners,they do everything involved in making sure these events go smoothly,including choosing locations, hiring caterers, entertainment, and other vendors."
+        android:textSize="18sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:longClickable="false"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconSize="20dp"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextAppearanceActive="@style/AppTheme"
+        app:itemTextColor="@drawable/selector"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu_navigation"
+        tools:ignore="MissingConstraints"  />
+
+
+
+
+</RelativeLayout>
